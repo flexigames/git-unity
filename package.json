@@ -1,0 +1,13 @@
+{
+  "name": "git-unity",
+  "version": "1.0.0",
+  "description": "Install",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "bin": "./git-unity",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

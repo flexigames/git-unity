@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+const { copyFileSync } = require("fs");
+
+const workingDir = process.cwd();
+
+copyFileSync(__dirname + "/.gitignore", workingDir + "/.gitignore");
+copyFileSync(__dirname + "/.gitattributes", workingDir + "/.gitattributes");
+
+console.log("git-unity: .gitignore and .gitattributes copied to " + workingDir);
