@@ -3,5 +3,13 @@
 Install
 
 ```
-sudo cp git-unity /usr/local/bin
+npm link
 ```
+
+Run with
+
+```
+git unity
+```
+
+Currently only adds .gitattributes and .gitignore to your project.
